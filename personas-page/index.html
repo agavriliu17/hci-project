@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8"/>
+<meta name="publisher" content="blankdots.com"/>
+<meta name="author" content="Stefan Negru"/>
+<meta name="keywords" content="personas, template" />
+<meta name="description" content="Personas Template with microdata" />
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Personas</title>
+</head>
+
+<body>
+<header>
+	<h1>Personas</h1>
+	<span id="logo"><a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a></span>
+
+</header>
+<section>
+	<h1 class="hidden">Personas Section</h1>
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary</h3>
+			<figure>
+				<img itemprop="image" src="./resources/photo1.png" alt="persona image" width="150" height="150" />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Maria</span> <span itemprop="familyName">Popescu</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1975-03-03">03/03/1975</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">High School</span>, <span itemprop="jobTitle">Professor</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">University "Alexandru Ioan-Cuza" Iasi</span></li>
+						<li><strong>Technology Level:</strong>Medium</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Experience with certain products: 
+                            <ul>
+                                <li>Uses screen reader software on her computer and smartphone to access digital content </li>
+                                <li>Prefers products with high contrast settings and large font sizes </li>
+                            </ul>
+                        </li>
+						<li>Dislikes about certain aspects: Dislikes products with poor accessibility features or low contrast settings</li>
+						<li>Disabilities relevant to our research: Maria has a visual impairment that requires her to use accessibility features, such as screen readers and high contrast settings, in order to access digital content.</li>
+						<li>Working environment: Maria works as a high school professor and uses technology moderately in her work.</li>
+						<li>Social connections: Maria is married with two children and enjoys spending time with her family.</li>
+						<li>The user's goals.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals:
+                            <ul>
+                                <li>To complete her shopping as quickly and easily as possible</li>
+                                <li>To find products that are compatible with her dietary restrictions</li>
+                            </ul>
+                        </li>
+						<li>Personal Goals:
+                            <ul>
+                                <li>To enjoy the shopping experience</li>
+								<li>To find good and affordable products</li>
+                            </ul>
+                        </li>
+						<li>Business Goals: None applicable</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>UI, Interaction, User Experience: Small font size, low contrast, poor readability on screens/panels</li>
+						<li>Dislikes relevant to the research: Uncomfortable shopping environment, lack of assistance or guidance for people with visual impairments</li>
+						<li>Disabilities: Visual impairment makes it difficult to read small text, distinguish colors or recognize faces</li>
+						<li>Unreliability of the product: Product information not provided in accessible formats, especially risks, inconsistent stock availability or pricing</li>
+						<li>Difficulties in completing tasks: Difficulty in finding good, affordable products</li>
+						<li>Problems with the product: Incomplete or outdated product information, leading to confusion and uncertainty about the product's characteristics, pricing, or availability</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>
+                    Maria Popescu is a high school professor who enjoys shopping in her free time. She has been diagnosed with visual impairment that makes it difficult for her to navigate public spaces and read small print. Maria is an avid user of technology and relies heavily on her smartphone to stay organized and connected with her colleagues, friends, and family.
+                    In her work life, Maria is a dedicated professor who is passionate about helping her students learn and succeed. 
+                    In her social life, Maria values spending time with her family and friends. She has multiple social media relations and enjoys sharing photos and updates with her friends and family.
+                    When it comes to shopping for groceries, Maria wants to get it done as fast as possible, but she also wants to find good products at affordable prices.
+                </p>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p>
+				<strong>Scenario 1:</strong>
+                Maria goes to do some grocery shopping for her family and a couple of products she bought contained hidded milk ingredients that weren't labeled as they should. Her son is lactose intolerant, so when he ends up consuming those products, Maria had to take him to the hospital. <br>
+				<strong>End point: </strong>Maria is frustrated and disappointed with the store and the product manufacturer. She feels that the store should have provided better information about the product.        
+            </p> <br>
+            <p>
+				<strong>Scenario 2:</strong>
+                Maria wants to buy some products from the store, and uses the 'begr' app to see risks abour the products she scans, and get better products based on prices and risks. She ends up buying the other items. <br>
+                <strong>End point: </strong>Maria is happy that she managed to find good products at affordable prices, and that she could avoid buying products that could harm her son or any other family member.
+            </p>
+		</div>
+	</article>
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Secondary</h3>
+			<figure>
+				<img  itemprop="image" src="./resources/photo2.png" alt="persona image" width="150" height="150" />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Alexandru</span> <span itemprop="familyName">Antal</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1989-01-01">01/01/1989</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Gym</span>, <span itemprop="jobTitle">Fitness Instructor</span></li>
+						<li><strong>Technology Level:</strong> Medium</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Experience with certain products: Has experience in the fitness industry.</li>
+						<li>Dislikes about certain aspects: Dislikes when he can't find good fitness products such as energy bars, recovery drinks etc. </li>
+						<li>Disabilities relevant to our research: No disabilities relevant to our research.</li>
+						<li>Working environment:
+                            <ul>
+                                <li>Works in a gym as a fitness trainer.</li>
+                                <li>Spends most of his time in the gym working with people and recommending them fitness products.</li>
+                            </ul>
+                        </li>
+						<li>Social connections: He has a wide network of contacts in the fitness industry, including fitness trainers, equipment manufacturers, and gym owners. He values these connections for professional collaboration and staying updated on industry trends.</li>
+						<li>The user's goals.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: To recommend the best products to his customers </li>
+						<li>Personal Goals: To help other people become fitness enthusiasts and create a good impression of himself in the inductry </li>
+						<li>Business Goals: To help people achieve their fitness goals</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>UI, Interaction, User Experience:
+                            <ul>
+                                <li>Complicated and unintuitive fitness tracking apps or software that make it difficult to track progress and analyze data.</li>
+                                <li>Difficulty in staying updated with the latest fitness trends, research, and advancements</li>
+                            </ul>
+                        </li>
+						<li>Dislikes relevant to the research:
+                            <ul>
+                                <li>Inability to get useful data on products he needs</li>
+                                <li>Lack of tools for getting that useful data</li>
+                            </ul>
+                        </li>
+						<li>Unreliability of the product: Inconsistent taste or texture of protein powders, energy bars, or other nutritional supplements, leading to dissatisfaction among clients and difficulty in finding products that meet their preferences.</li>
+						<li>Difficulties in completing tasks: The process of searching and finding the best products is tedious </li>
+						<li>Problems with the product: 
+                            <ul>
+                                <li>Usually the products he's looking for are poorly labeled, missing risks</li>
+                                <li>The lack of a way to compare fitness items between each other </li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>
+                    Alexandru Antal  works at a gym. He has experience in training people and recommending them fitness products. He is a fitness enthusiast and likes to stay updated on the latest fitness trends and research. 
+                    Alexandru's main frustration and pain point is finding the best products that he can recommend to his customers.
+                    He is also concerned about the quality and effectiveness of the fitness products available in the market. He wants to ensure that the products he recommends align with his clients' goals and deliver the desired results. 
+                </p>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+            <p>
+                <strong>Scenario 1:</strong>
+				Alexandru, a fitness trainer, recommends a generic protein powder to his client Laura without considering her dietary restrictions. Laura consumes it, unaware that it contains allergens, resulting in an allergic reaction. Laura feels disappointed and suffers from discomfort.
+				<strong>End point: </strong>Alexandru realizes the importance of personalized recommendations and vows to be more cautious in the future.
+            </p> <br>
+            <p>
+				<strong>Scenario 2:</strong>
+				Alexandru, a fitness trainer, uses the begr app to recommend a new pre-workout supplement to his client John, taking into account John's fitness goals and preferences. John gives the suggested product a try and is thrilled with the boost in energy and focus it provides during his workouts.
+				<strong>End point: </strong>Alexandru is delighted to see his client's performance improve and feels confident in his ability to guide his clients towards effective fitness solutions using the begr app.
+            </p>
+		</div>
+	</article>		
+</section>
+
+<footer id="footer">
+	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
+</footer>
+</body>
+</html>

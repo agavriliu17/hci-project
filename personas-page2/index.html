@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8"/>
+<meta name="publisher" content="blankdots.com"/>
+<meta name="author" content="Stefan Negru"/>
+<meta name="keywords" content="personas, template" />
+<meta name="description" content="Personas Template with microdata" />
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Personas</title>
+</head>
+
+<body>
+<header>
+	<h1>Personas</h1>
+	<span id="logo"><a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a></span>
+
+</header>
+<section>
+	<h1 class="hidden">Personas Section</h1>
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary</h3>
+			<figure>
+				<img itemprop="image" src="./resources/photo1.png" alt="persona image" width="150" height="150" />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Sandra</span> <span itemprop="familyName">Marin</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1982-07-01">01/07/1982</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Bucharest, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Insurance Company</span>, <span itemprop="jobTitle">Marketing Manager</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">University "Alexandru Ioan-Cuza" Iasi</span></li>
+						<li><strong>Technology Level:</strong>Medium</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Experience with certain products: Doesn't have much experience with apps, but she knows how to use a basic application and social media 
+						<li>Dislikes about certain aspects: Dislikes products with poor accessibility features or low contrast settings</li>
+						<li>Disabilities relevant to our research: None applicable.</li>
+						<li>Working environment: Sandra is a marketing manager at an insurance firm.</li>
+						<li>Social connections: Sandra has a husband and two sons. She also has multiple friends, who all use social media.</li>
+						<li>The user's goals.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals:
+                            <ul>
+                                <li>Maintain a healthy lifestyle for herself and her family.e</li>
+                                <li>Discover new and nutritious recipes that are appealing to her children.</li>
+                            </ul>
+                        </li>
+						<li>Personal Goals:
+                            <ul>
+                                <li>Stay updated on the latest health and wellness trends.</li>
+                            </ul>
+                        </li>
+						<li>Business Goals: None applicable</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>UI, Interaction, User Experience: Sandra prefers an intuitive user interface with a comfortable font size, high contrast, and excellent readability on screens or panels.</li>
+						<li>Dislikes relevant to the research: Sandra dislikes uncomfortable shopping environments and appreciates assistance or guidance during her shopping experiences.</li>
+						<li>Disabilities: None applicable</li>
+						<li>Unreliability of the product: Sandra sometimes faces challenges in finding good, affordable products that meet her family's needs, given her busy schedule.</li>
+						<li>Difficulties in completing tasks: Sandra sometimes faces challenges in finding good, affordable products that meet her family's needs, given her busy schedule.</li>
+						<li>Problems with the product: Sandra becomes frustrated when product information is incomplete or outdated, leading to confusion and uncertainty about the product's characteristics, pricing, or availability.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>
+					Sandra is a marketing manager at an insurance company, responsible for various marketing activities. 
+					As a dedicated mother of two kids, her family's well-being is of utmost importance to her. Sandra values quality products and services that provide a great experience for herself, her children, and her partner. 
+					She seeks convenience and time-saving options in her busy schedule and relies on recommendations from her trusted social connections to make informed purchasing decisions. 
+					Sandra takes into account the opinions and experiences of her friends and peers when considering different products, ensuring the best choices for her family.
+				</p>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p>
+				<strong>Scenario 1:</strong>
+                Sandra is using the interactive grocery recommendation application to find affordable and quality groceries for her family. However, the application has outdated product information and unreliable recommendations. As a result, Sandra ends up purchasing groceries that do not meet her expectations in terms of quality, pricing, and dietary restrictions. She feels frustrated and disappointed with the app's performance, as it fails to provide accurate and helpful recommendations. <br>
+				<strong>End point: </strong> Sandra is disappointed and she needs to find an alternative application to help her find the right products for her family.	 
+            </p> <br>
+            <p>
+				<strong>Scenario 2:</strong>
+				Sandra is using the interactive grocery recommendation application to find the best groceries for her family. The application provides her with personalized recommendations based on her preferences, including dietary restrictions and budget constraints. It offers detailed product information, including pricing, quality ratings, and user reviews. Sandra also benefits from the social connections feature, which allows her to see what products her friends have liked and recommended. With the app's assistance, Sandra confidently selects high-quality and affordable groceries that meet her family's needs. <br>
+                <strong>End point: </strong>She feels satisfied with the app's recommendations, as they have helped her save time, make informed decisions, and ensure a delightful grocery shopping experience.
+            </p>
+		</div>
+	</article>
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Secondary</h3>
+			<figure>
+				<img  itemprop="image" src="./resources/photo2.png" alt="persona image" width="150" height="150" />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">John</span> <span itemprop="familyName">Dascalu</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1998-12-01">01/12/1998</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Cluj, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Technology Company</span>, <span itemprop="jobTitle">Senior Engineer</span></li>
+						<li><strong>Technology Level:</strong> High</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Experience with certain products: Has experience with all kinds of apps</li>
+						<li>Dislikes about certain aspects: John dislikes it when he struggles to find suitable food options that align with his specific dietary needs for managing his diabetes.  </li>
+						<li>Disabilities relevant to our research: John has diabetes, which makes him need to have certain dietary needs.</li>
+						<li>Working environment:
+                            <ul>
+                                <li>Works in a technology company.</li>
+                                <li>He spends most of his working hours developing software solutions and collaborating with his colleagues.</li>
+                            </ul>
+                        </li>
+						<li>Social connections: John has a diverse network of contacts within the technology industry, including colleagues, professionals from other companies, and individuals involved in software development and related fields.</li>
+						<li>The user's goals.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: He aims to achieve this by diligently following his prescribed dietary guidelines </li>
+						<li>Personal Goals: John's personal goal is to discover the best products that align with his specific dietary needs.  </li>
+						<li>Business Goals: None applicable</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>UI, Interaction, User Experience:
+                            <ul>
+                                <li>Clean and intuitive user interface with a modern design, featuring clear and visually appealing icons, buttons, and layouts..</li>
+                            </ul>
+                        </li>
+						<li>Dislikes relevant to the research:
+                            <ul>
+                                <li>John dislikes it when the products provide incomplete or inaccurate nutritional information for food products. It frustrates him as it becomes difficult to track his carbohydrate intake and make informed choices to manage his diabetes effectively.</li>
+                                <li>John finds it challenging when the stores offer a limited selection of diabetic-friendly products. </li>
+                            </ul>
+                        </li>
+						<li>Unreliability of the product: John dislikes when the interactive application provides unreliable or inconsistent product information. This could include discrepancies in pricing, stock availability, or ingredient listings.</li>
+						<li>Difficulties in completing tasks: The process of searching and finding suitable products for the diet is tedious </li>
+						<li>Problems with the product: 
+                            <ul>
+                                <li>John faces frustration when the product labels or descriptions lack vital information, such as detailed ingredient lists, allergen warnings, or specific nutritional values. </li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>
+					John is a software engineer who leads an active and health-conscious lifestyle while managing his diabetes. With a keen focus on maintaining his well-being, John understands the importance of making informed dietary choices. 
+					He seeks an interactive application that can assist him in navigating the complexities of grocery shopping, particularly with regard to product labels and information.
+				</p>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+            <p>
+                <strong>Scenario 1:</strong>
+				Without the assistance of the interactive application, John faces challenges during his grocery shopping experience. He visits the store and is unable to find clear and comprehensive product information on the labels. 
+				The absence of detailed ingredient lists, allergen warnings, and nutritional values leaves John uncertain about the suitability of the products for his dietary needs.
+				<strong>End point: </strong>John leaves the store without purchasing the groceries he needs, resulting in added stress and potentially compromising his health management efforts.
+            </p> <br>
+            <p>
+				<strong>Scenario 2:</strong>
+				John utilizes the interactive application to aid him in his grocery shopping journey. He opens the app on his mobile phone and navigates through the user-friendly interface, searching for specific products tailored to his dietary needs. The app provides him with detailed product information, including ingredient lists, allergen warnings, and nutritional values. John feels confident in his selections as he compares various products, taking into account certifications and quality indicators.
+				<strong>End point: </strong>With the app's assistance, John successfully completes his grocery shopping, ensuring he has a well-rounded and diabetes-friendly selection of items to support his health goals.
+            </p>
+		</div>
+	</article>		
+</section>
+
+<footer id="footer">
+	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
+</footer>
+</body>
+</html>
